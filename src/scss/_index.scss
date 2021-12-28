@@ -1,0 +1,5 @@
+// sử dụng forward để tập hợp các file scss lại rồi dùng @use để gọi lại nó
+
+@forward "./variables";
+@forward "./mixin";
+@forward "./breakpoint";
