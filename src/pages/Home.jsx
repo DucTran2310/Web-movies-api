@@ -1,10 +1,12 @@
 import React from 'react'
 
+import HeroSlide from '../components/hero_slide/HeroSlide'
+
 const Home = () => {
   return (
-    <div>
-      Home is here !
-    </div>
+    <>
+      <HeroSlide />
+    </>
   )
 }
 
