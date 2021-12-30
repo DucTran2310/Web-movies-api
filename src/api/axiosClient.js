@@ -1,10 +1,10 @@
 import axios from 'axios'
-import queryString from 'queryString'
+import queryString from 'query-string'
 
 import apiConfig from './apiConfig'
 
 const axiosClient = axios.create({
-  baseURL: apiConfig.baseURL,
+  baseURL: apiConfig.baseUrl,
   // `headers` are custom headers to be sent
   headers: {
     'Content-Type': 'application/json'
