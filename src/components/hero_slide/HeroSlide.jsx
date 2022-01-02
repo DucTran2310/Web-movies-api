@@ -26,7 +26,7 @@ const HeroSlide = () => {
         // get API movieType ở trang 1
         const response = await tmdbApi.getMoviesList(movieType.popular, { params })
         // cắt chuỗi từ 0 đến 4 ko lấy end roi setMoviesItem
-        setMovieItems(response.results.slice(0, 5))
+        setMovieItems(response.results.slice(0, 20))
         // console.log(response)
       } catch (error) {
         // console.log('error')

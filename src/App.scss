@@ -83,7 +83,7 @@ iframe {
 .section__header {
     // gọi mixin
     @include flex(center, space-between);
-    color: black;
+    color: white;
     &__title {
         font-size: 20px;
     }
